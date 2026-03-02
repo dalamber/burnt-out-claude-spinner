@@ -6,7 +6,7 @@
 
 Замена фраз спиннера Claude Code для уважаемых вайбкодеров.
 
-Вместо стандартных `Thinking...`, `Analyzing...`, `Pondering...` — будет крутиться **"Обкашляю вопросик"**, **"По красоте все сделаем"** и еще 70 фраз.
+Вместо стандартных `Thinking...`, `Analyzing...`, `Pondering...` будет крутиться **"Обкашляю вопросик"**, **"По красоте все сделаем"** и еще 70 фраз.
 
 ## Установка через Claude Code
 
@@ -15,16 +15,10 @@ git clone https://github.com/i1kazantsev/claude-code-spinner.git
 cd claude-code-spinner
 ```
 
-Открой Claude Code и выполни слеш-команду:
+Запусти Claude Code и выполни слеш-команду:
 
 ```
 /install-spinner
-```
-
-## Удаление
-
-```
-/uninstall-spinner
 ```
 
 ## Ручная установка
@@ -35,7 +29,7 @@ cd claude-code-spinner
 {
   "spinnerVerbs": {
     "mode": "replace",
-    "verbs": ["Обкашлял вопросик", "Метнулся", "..."]
+    "verbs": ["Обкашляю вопросик", "По красоте все сделаем", "..."]
   }
 }
 ```
